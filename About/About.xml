@@ -5,6 +5,8 @@
   <url></url>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <packageId>rutranickers.NotClothingPack</packageId>
   <description>Oi, nudist! It's just a freaking hat, why are you mad!? I can see literally EVERYTHING, YOU'RE NOT CLOTHED AT ALL!!
@@ -20,6 +22,8 @@
 		<li>aelanna.eccentrictech.angelapparel</li>
 		<li>baskerville.hellsingarmsultimate</li>
 		<li>ricofox233.klkapparel</li>
+		<li>psy.bone.masks</li>
+		<li>ponpeco.ponpecoaccessories</li>
 		<li>CAT.Imperial.Attires</li>
 		<li>MO.Size.Valentine.Apparel</li>
   	</loadAfter>
