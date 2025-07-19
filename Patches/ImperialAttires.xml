@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Imperial Attires Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Imperial Attires</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
